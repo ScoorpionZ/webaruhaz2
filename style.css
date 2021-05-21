@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background-color:chocolate;
+}
+ 
+main{
+    max-width: 800px;
+    margin: auto;
+    width: 75%;
+    border-radius: 20px;
+    background-color:antiquewhite;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family:Book Antiqua;
+    padding: 10px;
+    border: none;
+    color:darkred;
+}
+ 
+main, footer, section, article{
+    border: 1px solid chocolate;
+    padding: 10px;
+}
+fieldset{
+    border: 1px solid chocolate;
+    padding: 10px;
+ 
+}
+fieldset div{
+    display: grid;
+    grid-template-columns:100px auto;
+}
+label{
+    text-align: right;
+    padding-right: 5px;
+}
+th{
+    background:burlywood;
+}
